@@ -12,7 +12,7 @@ namespace VDVT.Micro.Coupon.Api.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Models.Coupon>().HasData(new Models.Coupon
+            /*modelBuilder.Entity<Models.Coupon>().HasData(new Models.Coupon
             {
                 CouponId = 1,
                 CouponCode = "100FF",
@@ -25,7 +25,7 @@ namespace VDVT.Micro.Coupon.Api.Data
                 CouponCode = "200FF",
                 DiscountAmount = 20,
                 MinAmount = 40
-            });
+            });*/
         }
     }
 }

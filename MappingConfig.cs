@@ -1,7 +1,8 @@
 ﻿using AutoMapper;
-using VDVT.Micro.Product.Api.Models.Dto;
+using VDVT.Micro.Coupon.Api.Models.Dto;
+using VDVT.Micro.Coupon.Api.Models;
 
-namespace VDVT.Micro.Product.Api
+namespace VDVT.Micro.Coupon.Api
 {
     public class MappingConfig
     {
@@ -9,7 +10,7 @@ namespace VDVT.Micro.Product.Api
         {
             var mappingConfig = new MapperConfiguration(config =>
             {
-                config.CreateMap<ProductDto, Models.Product>().ReverseMap();
+                config.CreateMap<CouponDto, Models.Coupon>().ReverseMap();
             });
             return mappingConfig;
         }

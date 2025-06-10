@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using VDVT.Micro.Coupon.Api.Data;
 using VDVT.Micro.Coupon.Api.Extensions;
-using VDVT.Micro.Product.Api;
+using VDVT.Micro.Coupon.Api;
 
 var builder = WebApplication.CreateBuilder(args);
 
