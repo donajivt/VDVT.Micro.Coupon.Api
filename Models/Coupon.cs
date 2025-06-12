@@ -13,7 +13,7 @@ namespace VDVT.Micro.Coupon.Api.Models
         public string CouponCode { get; set; }
         [Required]
         public double DiscountAmount { get; set; }
-        public int MinAmount { get; set; }
+        public double MinAmount { get; set; }
         [NotMapped]
         public DateTime LastUpdated { get; set; }
         public string AmountType { get; set; }

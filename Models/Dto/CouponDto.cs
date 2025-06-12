@@ -8,7 +8,7 @@ namespace VDVT.Micro.Coupon.Api.Models.Dto
         public int CouponId { get; set; }
         public string CouponCode { get; set; }
         public double DiscountAmount { get; set; }
-        public int MinAmount { get; set; }
+        public double MinAmount { get; set; }
         public string AmountType { get; set; }
         public int LimitUse { get; set; }
         public DateTime DateInit { get; set; }
