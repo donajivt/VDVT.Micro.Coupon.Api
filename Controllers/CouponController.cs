@@ -75,7 +75,7 @@ namespace VDVT.Micro.Coupon.Api.Controllers
             return _response;
         }
         [HttpPost]
-        [Authorize(Roles = "ADMINISTRATOR, VENTAS")]
+        [Authorize(Roles = "ADMINISTRATOR")]
         public ResponseDto Post([FromBody] CouponDto couponDto)
         {
             try
